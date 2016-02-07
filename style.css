@@ -1,0 +1,128 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: #38817A; /* Solid border  Originally 0D2968*/
+  color: black;
+  font-family: Verdana;
+  
+}
+
+.main {
+  margin: 1%;
+  padding: 1% 1%;
+  background-color: #F5F093; /* Main Background Orignally FFEB89 */
+  margin-top:0;
+}
+
+.page-header{
+  background-color:#56BFB5;
+  padding: 1% 1%;
+  color:white;
+  margin:1%;
+  margin-bottom:0;
+}
+
+.games {
+    display: inline;
+    padding: 0 2;
+    text-align:center;
+    
+    
+}
+
+.list-group-item{
+  background-color:#FBD66F;
+  border:#FBD66F;
+
+}
+
+p, h3 {
+  text-align: center;
+}
+
+
+
+.page-header img {
+  margin-left: 2%;
+  float:left;  
+  text-align:right;
+  max-width: 80%;
+  
+}
+
+h1 {
+  vertical-align:middle;
+  text-align: left;
+  text-shadow: #6A6A6A 1px -2px;
+
+}
+
+/* Footer and Team listing*/
+
+
+
+.team {
+  background-color:  #56BFB5 ; /* Footer Background  Originally 5B1582*/
+  margin: 1%;
+  padding: 1%;
+   
+}
+
+.team a:link {
+    color: #1A007F;
+}
+
+/* visited link */
+.team a:visited {
+    color: #3E606F;
+}
+
+/* mouse over link */
+.team a:hover {
+    color: #4A66A8; /* 1D403C*/
+}
+
+/* selected link */
+.team a:active {
+    color: white;
+}
+
+
+
+.team li {
+    display: inline;
+    padding: 0 2;
+    text-align:center;
+}
+
+/* Code for Image slider */
+.carousel{
+    background: #2f4357;
+    margin: 20px 0;
+   
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+      max-height:500px
+  }
+
+.carousel h3{
+  
+  /* background-color: white; */
+  color:white;
+  text-shadow: #6A6A6A 1px 2px;, 
+    1px 1px 1px black, 
+      2px 2px 2px black,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
